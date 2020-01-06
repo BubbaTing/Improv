@@ -1,11 +1,27 @@
-<p>In Progress</p>
-<button id="return" (click)="back()">Back</button>
 <div id="charactertab">
-
+    
 </div>
 <div id="settingtab">
-
+    
 </div>
 <div id="actiontab">
+    
+</div>
 
+<div id="container"> 
+    <button id="return" (click)="back()">Back</button>
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="charactertab" data-toggle="tab" href="#nav-character" role="tab" aria-controls="nav-character" aria-selected="true">CHARACTER</a>
+            <a class="nav-item nav-link" id="settingtab" data-toggle="tab" href="#nav-setting" role="tab" aria-controls="nav-setting" aria-selected="true">SETTING</a>
+            <a class="nav-item nav-link" id="actiontab" data-toggle="tab" href="#nav-action" role="tab" aria-controls="nav-action" aria-selected="true">ACTION</a>
+        </div>
+    </nav>
+    
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="nav-character" role="tabpanel" aria-labelledby="home-tab">This is for users to imput characters</div>
+        <div class="tab-pane fade" id="nav-setting" role="tabpanel" aria-labelledby="profile-tab">This is for users to imput settings</div>
+        <div class="tab-pane fade" id="nav-action" role="tabpanel" aria-labelledby="contact-tab">This is for users to input actions</div>
+      </div>
+    <p>In Progress</p>
 </div>
