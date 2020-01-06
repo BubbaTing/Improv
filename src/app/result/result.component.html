@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row align-items-start" id="one">
+        <div class="col">RESULTS</div>
+    </div>
+    <div class="row align-items-center" id="two">
+        <div class="col-sm-4" id="title">CHARACTER</div>
+        <div class="col-sm-4" id="title">SETTING</div>
+        <div class="col-sm-4" id="title">ACTIVITY</div>
+    </div>
+    <div class="row" id="three">  
+        <br>
+    </div>
+    <div class="row align-items-center" id="four">  
+        <div class="col-sm-2" id="title2">{{charOne}}</div>
+        <div class="col-sm-2" id="title2">{{charTwo}}</div>
+        <div class="col-sm-4" id="title2">{{setting}}</div>
+        <div class="col-sm-4" id="title2">{{action | namingaction}}</div>
+    </div>
+    <div class="row" id="five"> 
+        <img *ngIf="(charOne == 'Billionaire')" src="../../assets/billionaire.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charOne == 'CEO')" src="../../assets/boss.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charOne == 'Engineer')" src="../../assets/engineer.jfif" alt="INSERT HERE PICTURES"  class="img-thumbnail">
+        <img *ngIf="(charOne == 'Gambler')" src="../../assets/gambler.png" alt="INSERT HERE PICTURES"  class="img-thumbnail">
+        <img *ngIf="(charOne == 'Gamer')" src="../../assets/gamer.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charOne == 'Queen')" src="../../assets/queen.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charOne == 'Robot')" src="../../assets/robot.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="charOne == 'Soldier'" src="../../assets/soldier.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charOne == 'Spy')" src="../../assets/spy.png"  alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charOne == 'Sumo')" src="../../assets/sumo.jfif"  alt="INSERT HERE PICTURES" class="img-thumbnail">
+
+        <img *ngIf="(charTwo == 'Billionaire')" src="../../assets/billionaire.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charTwo == 'CEO')" src="../../assets/boss.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Engineer')" src="../../assets/engineer.jfif" alt="INSERT HERE PICTURES"  class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Gambler')" src="../../assets/gambler.png" alt="INSERT HERE PICTURES"  class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Gamer')" src="../../assets/gamer.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Queen')" src="../../assets/queen.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Robot')" src="../../assets/robot.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="charTwo == 'Soldier'" src="../../assets/soldier.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Spy')" src="../../assets/spy.png"  alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="(charTwo == 'Sumo')" src="../../assets/sumo.jfif"  alt="INSERT HERE PICTURES" class="img-thumbnail">
+
+        <img *ngIf="setting == 'space'" src="../../assets/space.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail"> 
+        <img *ngIf="setting == 'beach'" src="../../assets/beach.jfif" alt="INSERT HERE PICTURES"class="img-thumbnail">
+        <img *ngIf="setting == 'Mount Rushmore'" src="../../assets/rushmore.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="setting == 'stadium'" src="../../assets/stadium.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="setting == 'park'" src="../../assets/park.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        
+        <img *ngIf="action == 0" src="../../assets/running.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="action == 1" src="../../assets/pushups.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="action == 2" src="../../assets/camera.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="action == 3" src="../../assets/punch.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+        <img *ngIf="action == 4" src="../../assets/dancing.jfif" alt="INSERT HERE PICTURES" class="img-thumbnail">
+
+    </div>
+    <button (click)="result()">Back</button>
+    <!-- <button (click)="refresh()">Refresh</button> -->
+</div>

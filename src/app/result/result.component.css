@@ -1,0 +1,22 @@
+#one, #three, #five {
+    margin: auto;
+    padding: 10px;
+    border: 25px;
+    border-radius: 10px;
+    border-color: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#two, #four {
+    align-content: center;
+}
+
+#title {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#title2 {
+    text-align: center;
+}
