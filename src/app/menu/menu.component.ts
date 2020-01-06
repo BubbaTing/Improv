@@ -17,4 +17,8 @@ export class MenuComponent implements OnInit {
     this.router.navigateByUrl('/result');
   }
 
+  users(){
+    this.router.navigateByUrl('/user');
+  }
+
 }

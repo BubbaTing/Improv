@@ -45,8 +45,7 @@ export class ResultComponent implements OnInit {
   }
 
   refresh(){
-    this.router.navigateByUrl('/home');
-    this.router.navigateByUrl('/result');
+    this.ngOnInit();
   }
   
 }

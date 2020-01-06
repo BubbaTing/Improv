@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MenuComponent } from './menu/menu.component';
 import { ResultComponent } from './result/result.component';
+import { UsersComponent } from './users/users.component';
 
 
 const routes: Routes = [{
@@ -10,6 +11,9 @@ const routes: Routes = [{
 },{
   path: 'result',
   component: ResultComponent
+},{
+  path: 'user',
+  component: UsersComponent
 },{
   path: '',
   redirectTo: '/home',

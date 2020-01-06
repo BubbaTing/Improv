@@ -1,4 +1,4 @@
-#one, #three, #five {
+#one, #three{
     margin: auto;
     padding: 10px;
     border: 25px;
@@ -8,6 +8,14 @@
     font-size: xx-large;
 }
 
+#back, #refresh{
+    border-radius: 15px;    
+}
+
+#back:hover, #refresh:hover{
+    transform: scale(1.1,1.1);
+}
+
 #two, #four {
     align-content: center;
 }
@@ -15,8 +23,39 @@
 #title {
     text-align: center;
     text-decoration-line: underline;
+    padding: 20px;
+    border: 3px solid silver;
+    border-radius: 25px;
 }
 
 #title2 {
     text-align: center;
+    font-weight: bold;
+    color: orangered;
+    padding: 20px;
+    border: 3px solid silver;
+    border-radius: 25px;
+}
+
+#main {
+    background-color: steelblue;
+    margin-top: 100px;
+    border-radius: 25px;
+}
+
+#result{
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+#charOnePic, #charTwoPic{
+    margin: auto;
+    align-content: center;
+    width: 100%;
+} 
+
+#settingPic, #actionPic{
+    margin: auto;
+    align-content: center;
+    width: 100%;
 }

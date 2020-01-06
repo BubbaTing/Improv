@@ -7,14 +7,18 @@ import { AppComponent } from './app.component';
 import { ResultComponent } from './result/result.component';
 import { MenuComponent } from './menu/menu.component';
 
-import { NamingactionPipe } from './namingaction.pipe'
+import { NamingactionPipe } from './namingaction.pipe';
+import { UsersComponent } from './users/users.component';
+import { ConnectionComponent } from './connection/connection.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ResultComponent,
     MenuComponent,
-    NamingactionPipe
+    NamingactionPipe,
+    UsersComponent,
+    ConnectionComponent
   ],
   imports: [
     BrowserModule,
